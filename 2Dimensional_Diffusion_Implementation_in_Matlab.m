@@ -30,15 +30,14 @@
                     an = k*dx*dz/dy;
                     
 
-                    %Below is the Main Loop, Here is where the values of the temperatures are
-                    %updated, notice the 9 if statements corresponding to the sections
-                    %configurations descibed in the paper delivered with this code.
-                    %If you come across a coefficient ae or an for example
-                    %that is multiplied by 2, then that multiplication is
-                    %for the reason that that node is in the perimeter of the boundary and
-                    %thus its length from its boundary is (dx/2), and this
-                    %value is in the denominator which means we'll simply
-                    %multiply by 2.
+                    %This is the Main Loop, this is where temperatures values are
+                    %updated, the 9 if statements correspond to the 9 sections'
+                    %configurations -described in the document attached-
+                    %Note: You will sometimes find a coefficient ae/an for example
+                    %that's multiplied by 2, this is because that specific
+                    %node is in the boundary perimeter and
+                    %so the length is going to be (dx/2), 
+                    %the 2 accounts for that value being in the denominator
 
                     
             for i = 1: n
