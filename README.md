@@ -3,7 +3,7 @@ Simulating 2 Dimensional temperature distribution on a plate using the finite vo
 
 results video animation (https://youtu.be/bFFg4KAUqos)
 
-![alt text](https://github.com/Attaras/Implementing-Simulating-2Dimensional-Diffusion-MATLAB/blob/master/CFD%20gif.gif?raw=true)
+![alt text](CFD%20gif.gif?raw=true)
 
 Temperature rise with time.
 
@@ -14,13 +14,13 @@ The change in a specific property with respect to time is proportional to the ch
 
 The diffusion equation’s generality comes from the sense that it's applicable to various types of propagations, one of its most used applications is heat diffusion, and in this case it’s well known as the heat equation.
 
-![alt text](https://raw.githubusercontent.com/Attaras/Implementing-Simulating-2Dimensional-Diffusion-MATLAB/master/diffusion%20equation.png)
+![alt text](diffusion%20equation.png)
 
 We discretize the Diffusion Equation above using the Finite Volume Method, this is achieved by first Integrating the general equation over the volume we’re working on, in this case a 3 dimensional plate with thickness dz, for simplicity we assumed unit thickness.
 
 Skipping through the steps we get this equation:
 
-![alt text](https://raw.githubusercontent.com/Attaras/Implementing-Simulating-2Dimensional-Diffusion-MATLAB/master/final%20equation.png)
+![alt text](final%20equation.png)
 
 
 ## Results
@@ -31,12 +31,12 @@ The plate was heated from the north by a source with 30°C temperature, from the
 
 Resulting Temperature distribution at equilibrium:
 
-![alt text](https://raw.githubusercontent.com/Attaras/Implementing-Simulating-2Dimensional-Diffusion-MATLAB/master/temp_profile.png)
+![alt text](temp_profile.png)
 
 ## Comparison of The Temperature Profiles Taken from a Central Horizontal Line from the Three Meshes(50,100,250)
 
-![alt text](https://raw.githubusercontent.com/Attaras/Implementing-Simulating-2Dimensional-Diffusion-MATLAB/master/Comparison%20of%20different%20meshs%20error%200.001.png)
+![alt text](Comparison%20of%20different%20meshs%20error%200.001.png)
 
 ## Simulation Time and Minimum Temperature for Each Mesh
 
-![alt text](https://raw.githubusercontent.com/Attaras/Implementing-Simulating-2Dimensional-Diffusion-MATLAB/master/Simulation%20Time%20and%20Min%20Temp%20Comparison.png)
+![alt text](Simulation%20Time%20and%20Min%20Temp%20Comparison.png)
